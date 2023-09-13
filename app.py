@@ -80,12 +80,12 @@ def sentiment_prediction():
 # Streamlit app
 def main():
     # Apply the custom CSS styles for the background image
-    st.set_page_config(page_title="Tweets Sentimental Predicition")
+    st.set_page_config(page_title="Tweets Sentimental Predicition",page_icon='https://img.icons8.com/office/16/twitter.png')
     st.markdown("""
         <style>
             /* Set background image */
             .stApp {
-                background-image: url("https://accelontech.com/wp-content/uploads/2022/08/industries-bg-electronics.jpg");
+                background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/120127055441-twitter.jpg?q=x_0,y_109,h_765,w_1360,c_crop/h_720,w_1280");
                 background-attachment: fixed;
                 background-size: cover;
             }
